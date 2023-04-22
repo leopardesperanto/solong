@@ -3,14 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   solong.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: phebert <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: phebert <emploi.hebert@laposte.net>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/10 12:48:50 by phebert           #+#    #+#             */
 /*   Updated: 2023/02/10 12:49:01 by phebert          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "norminou.xpm"
 #include "solong.h"
 #include "minilibx-linux/mlx.h"
 #include "minilibx-linux/mlx_int.h"
@@ -94,12 +93,12 @@ int	draw_background(t_vars *vars, char *carte_ber)
 	int		ligne;
 	int		colonne;
 	char	*linio;
-	int	*haut=malloc(sizeof(int));*haut=10;
-	int	*large=malloc(sizeof(int));*large=10;
 
 	fd = open(carte_ber, O_RDONLY);
-//	vars->canvas[0].img = mlx_xpm_file_to_image(vars->mlx, "norminou.xpm", large, haut);
-//	vars->canvas[0].addr = mlx_get_data_addr(vars->canvas[0].img, &vars->canvas[0].bpp, &vars->canvas[0].line_len, &vars->canvas[0].endian);
+//	vars->canvas[0].img = mlx_xpm_file_to_image(vars->mlx,
+//	"norminou.xpm", large, haut);
+//	vars->canvas[0].addr = mlx_get_data_addr(vars->canvas[0].img,
+//	&vars->canvas[0].bpp, &vars->canvas[0].line_len, &vars->canvas[0].endian);
 	dessine_couleur(vars, 0x00808000, 0);
 	dessine_couleur(vars, 0x00ff8000, 1);
 	dessine_couleur(vars, 0x00ffff00, 2);

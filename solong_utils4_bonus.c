@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   solong_utils4_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: phebert <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: phebert <emploi.hebert@laposte.net>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/10 12:53:17 by phebert           #+#    #+#             */
 /*   Updated: 2023/02/10 12:53:24 by phebert          ###   ########.fr       */
